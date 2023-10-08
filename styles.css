@@ -57,35 +57,5 @@ h2 {
     border: 1px solid #ccc;
 }
 
-#preview-container {
-    display: none;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: rgba(0, 0, 0, 0.7);
-    z-index: 999;
-    overflow: hidden;
-}
 
-#preview-container img,
-#preview-container video {
-    display: block;
-    margin: auto;
-    max-width: 80%;
-    max-height: 80%;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-}
 
-#preview-image {
-    display: none;
-}
-
-#preview-video {
-    display: none;
-}
