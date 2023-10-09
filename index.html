@@ -3,47 +3,62 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Media Gallery with Previews</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Photography & Video Showcase</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <h1>Media Gallery</h1>
+        <h1>Photography & Video Showcase</h1>
     </header>
+    <div class="container">
+        <div class="gallery">
+            <div class="gallery-item">
+                <img src="img1.jpg" alt="Photo 1">
+                <div class="overlay">
+                    <div class="overlay-content">
+                        <h3>Photo 1</h3>
+                        <p>Description of the photo or video.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="img1.jpg" alt="Photo 2">
+                <div class="overlay">
+                    <div class="overlay-content">
+                        <h3>Photo 2</h3>
+                        <p>Description of the photo or video.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- ... previous HTML code ... -->
 
-    <main>
-        <section class="image-gallery">
-            <h2>Image Gallery</h2>
-            <div class="image">
-                <img src="img1.jpg" alt="Image 1">
-                <p>Image 1 Description</p>
-            </div>
-            <div class="image">
-                <img src="image2.jpg" alt="Image 2">
-                <p>Image 2 Description</p>
-            </div>
-            <!-- Add more image entries as needed -->
-        </section>
+<div class="gallery-item">
+    <video controls>
+        <source src="video1.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <div class="overlay">
+        <div class="overlay-content">
+            <h3>Video 1</h3>
+            <p>Description of the video.</p>
+        </div>
+    </div>
+</div>
 
-        <section class="video-gallery">
-            <h2>Video Gallery</h2>
-            <div class="video">
-                <video controls>
-                    <source src="video1.mp4" type="video/mp4">
-                    Your browser does not support the video tag.
-                </video>
-                <p>Video 1 Description</p>
-            </div>
-            <div class="video">
-                <video controls>
-                    <source src="video2.mp4" type="video/mp4">
-                    Your browser does not support the video tag.
-                </video>
-                <p>Video 2 Description</p>
-            </div>
-            <!-- Add more video entries as needed -->
-        </section>
-    </main>
+<div class="gallery-item">
+    <video controls>
+        <source src="video1.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <div class="overlay">
+        <div class="overlay-content">
+            <h3>Video 2</h3>
+            <p>Description of the video.</p>
+        </div>
+    </div>
+</div>
+        </div>
+    </div>
     <script src="script.js"></script>
 </body>
 </html>
