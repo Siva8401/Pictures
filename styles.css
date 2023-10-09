@@ -32,20 +32,17 @@ h1 {
 
 .gallery-item {
     flex: 1;
-    border: 1px solid #ddd;
+    max-width: 100%; /* Set the maximum width to 100% */
     overflow: hidden;
     position: relative;
     transition: transform 0.3s ease-in-out;
     cursor: pointer;
 }
 
-.gallery-item:hover {
-    transform: scale(1.05);
-}
-
-.gallery-item img {
-    width: 100%;
-    height: auto;
+.gallery-item img,
+.gallery-item video {
+    width: 100%; /* Make sure both images and videos fill the container width */
+    height: auto; /* Maintain aspect ratio */
 }
 
 .overlay {
